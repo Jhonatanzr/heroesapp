@@ -1,0 +1,35 @@
+<div class="container">
+
+    <h1>Bienvenido</h1>
+    <h2>Seleccione una de los enlaces para ingresar</h2>
+    <p>
+        El listado tiene un guard de proteccion de ruta, tanto para cargar como activar,
+        no permite el ingreso si no hay un usuario activo.
+    </p>
+    <mat-list role="list">
+        <mat-list-item>
+            <mat-icon class="icono" matListIcon>face</mat-icon>
+            <a routerLink="/auth/login">Ir a login</a>
+        </mat-list-item>
+        <!-- <li>
+            <a routerLink="/auth/registro">Ir a registro</a>
+        </li> -->
+        <mat-list-item>
+            <mat-icon class="icono" matListIcon>format_list_bulleted</mat-icon>
+            <a routerLink="/heroes/listado">Ir a listado</a>
+        </mat-list-item>
+        <!-- <li>
+            <a routerLink="/heroes/agregar">Ir a agregar</a>
+        </li>
+        <li>
+            <a routerLink="/heroes/editar/52">Ir a editar/:id</a>
+        </li>
+        <li>
+            <a routerLink="/heroes/buscar">Ir a buscar</a>
+        </li>
+        <li>
+            <a routerLink="/heroes/55">Ir a heroes/:id</a>
+        </li> -->
+    </mat-list>
+</div>
+
